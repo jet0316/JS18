@@ -1,13 +1,13 @@
 $(document).on('ready', function(){
 
 
-	$('.body-div').on('click','.submit-button' , function(event){
-		event.preventDefault();
+	$('.submit-button').on('click', function(event){
+		
 		var quotes = $('.quote').val()
 		var author = $('.author').val()
 		
 		var output = $('<div class="parent-container"><div class="append-div font"> "' + quotes 
-			+ '" ' + '-' + author + '</div><button class="undo-button">Undo Quote</button></div>')
+			+ '" ' + '-' + author + '</div><button class="undo-button">Remove</button></div>')
 		console.log(quotes)
 		console.log(author)
 
@@ -19,7 +19,7 @@ $(document).on('ready', function(){
 
 		else {
 
-		$('input').val(' ')
+		$('input').val('')
 		
 		$('.appended-quotes').prepend(output)
 

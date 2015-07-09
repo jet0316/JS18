@@ -63,8 +63,17 @@ body {
 }
 
 .append-div {
-	border-top: 1px solid black;
-	position: relative;
+    position: relative;
     padding: 15px;
 
+
+}
+
+.parent-container {
+	border-top: 1px solid black;
+    
+}
+
+.undo-button {
+    margin: 10px;
 }
