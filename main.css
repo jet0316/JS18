@@ -77,3 +77,20 @@ body {
 .undo-button {
     margin: 10px;
 }
+
+.random-quote {
+    position: relative;
+    bottom: 220px;
+    margin: 20px;
+}
+
+.random {
+    position: fixed;
+    background-color: bisque;
+    padding: 50px 150px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 40px 10px black;
+    font-size: 150%;
+    margin-left: 200px;
+    bottom: 460px;
+}
